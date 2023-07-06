@@ -136,6 +136,51 @@ table {
 
 /* .............................................. */
 
+header {
+    display: flex;
+    height: 10dvh;
+    width: 100dvw;
+}
+ header img {
+    height: 10dvh;
+    margin: 0 0 0 2rem;
+ }
+
+ header nav {
+    flex-direction: row;
+    display: flex;
+ }
+
+ header nav ul {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+ }
+
+ nav ul ol {
+    padding: 10px;
+    color: white;
+ }
+
+ header div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+
+ .shopTab {
+   padding-left: 8rem;
+   color: white;
+ }
+
+ .hamburgerIcon {
+    margin-left: 1rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+ }
+
 .page1-container {
     background-image: url('https://sxcontent9668.azureedge.us/cms-assets/assets/Euclid_outsidetowerh_IMG_2487_desktop_a75e89406d.jpg');
     height: 100vh;
